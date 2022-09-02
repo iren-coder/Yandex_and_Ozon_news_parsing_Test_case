@@ -43,19 +43,19 @@ OZON — https://seller.ozon.ru/news/
 Фильтрация осуществляется по дате, тэгу, каналу (Яндекс или Озон)
 
 Для фильтрации новости по дате пользуйтесь кнопкой Filters REST-интерфейса либо вбейте в строке браузера
-http://localhost/api/v1/newslist/?search=date
-например, чтобы получить все новости за 25 августа:
+http://localhost/api/v1/newslist/?search=date<br>
+например, чтобы получить все новости за 25 августа:<br>
 http://localhost/api/v1/newslist/?search=2022-08-25
 
 Для фильтрации новости по тэгу пользуйтесь кнопкой Filters REST-интерфейса либо вбейте в строке браузера
-http://localhost/api/v1/newslist/?search=tag
-например, чтобы получить все новости с тэгом FBS:
+http://localhost/api/v1/newslist/?search=tag<br>
+например, чтобы получить все новости с тэгом FBS:<br>
 http://localhost/api/v1/newslist/?search=fbs
 
 Для фильтрации новости по источнику новости (Яндекс canal=y, OZON canal=o) пользуйтесь кнопкой Filters REST-интерфейса 
 либо вбейте в строке браузера
-http://localhost/api/v1/newslist/?search=canal
-например, чтобы получить все новости от OZON:
+http://localhost/api/v1/newslist/?search=canal<br>
+например, чтобы получить все новости от OZON:<br>
 http://localhost/api/v1/newslist/?search=o<br>
 
 <em>API список всех новостей</em>
