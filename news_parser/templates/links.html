@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+{% block content %}
+    
+    <h3><a href="#" class="text-black">Project routs</a></h3>
+    <div class = "links">
+        <ul class="list-group list-group-flush">
+        <li class="list-group-item">
+        <a class="nav-link" href="admin/">Admin Panel</a>
+        </li>
+        <li class="list-group-item">
+        <a class="nav-link" href="api/v1/newslist/">Список всех новостей со всех каналов</a>
+        <p>- Новости можно фильтровать по дате, каналу, тэгу<br>
+        - Используйте кнопку Filters</p>
+        <p>- Чтобы посмотреть детальную информацию по новости, напишите в браузере её id,<br> 
+          например<br>
+          http://localhost/api/v1/newslist/1
+        </p>
+        </li>
+        <li class="list-group-item">
+        <a class="nav-link" href="openapi/">OpenAPI scheme</a>
+        </li>
+        <li class="list-group-item">
+        <a class="nav-link" href="docs/">API SDocumentation</a>
+        </li>
+        </ul>
+    </div>
+    
+
+{% endblock %}
