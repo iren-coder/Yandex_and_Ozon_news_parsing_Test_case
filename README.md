@@ -20,6 +20,7 @@ OZON — https://seller.ozon.ru/news/
 
 <em>Работа парсера</em>
 ![Работа парсера](/screenshots/Parser_works.png)
+
 <em>Пример таблицы</em>
 ![Пример таблицы](/screenshots/Table.png)
 
@@ -32,6 +33,7 @@ https://adminlte.io/premium/
 
 <em>Панель администратора. Стартовая страница</em>
 ![Панель администратора. Стартовая страница](/screenshots/admin.png)
+
 <em>Добавление новости из панели администратора</em>
 ![Добавление новости из панели администратора](/screenshots/admin2.png)
 
@@ -60,6 +62,7 @@ https://adminlte.io/premium/
 
 <em>API список всех новостей</em>
 ![API список всех новостей](/screenshots/newslist.png)
+
 <em>Фильтрация новостей</em>
 ![Фильтрация новостей](/screenshots/filter.png)
 
