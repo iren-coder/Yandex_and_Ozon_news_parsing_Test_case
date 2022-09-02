@@ -1,27 +1,15 @@
 from django.template import loader
 from django.http import HttpResponse
-#from django.shortcuts import redirect, render
-#from django.urls.base import reverse_lazy
-#from django.views.generic.list import ListView
-#from rest_framework.parsers import JSONParser
 from .models import News
 from .serializers import *
 from rest_framework import generics  
 from django.core import serializers
-#from django.core.exceptions import ValidationError, ObjectDoesNotExist
-#from json import JSONDecodeError
 from django_filters import rest_framework as filters
-#from django.db import IntegrityError
-#from rest_framework.response import Response
 from rest_framework.views import APIView
-#from types import SimpleNamespace
-#from django.db.models import Q
 from rest_framework.generics import ListAPIView
 from django.views.generic import ListView, CreateView, UpdateView, View
 #mport gc
 from django_filters.rest_framework import DjangoFilterBackend
-#from rest_framework import mixins
-#from rest_framework.mixins import ListModelMixin
 from rest_framework import viewsets
 #from rest_framework.decorators import action
 from rest_framework import filters
