@@ -26,9 +26,6 @@ OZON — https://seller.ozon.ru/news/
 ![Пример таблицы](/screenshots/Table.png)
 
 2. <em>Задание</em> : Админка // Сделать на Django админку для новостей с шаблоном Admin LTE 3 и занести данные из парсера в базу MySQL.
-https://adminlte.io/themes/v3/
-https://github.com/DucThanhNguyen/MaterialAdminLTE
-https://adminlte.io/premium/
 
 <em>Что сделано</em> : Пенель администратора настроена в соответствии с шаблоном Admin LTE 3.<br>
 
