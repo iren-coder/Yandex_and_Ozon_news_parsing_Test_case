@@ -71,14 +71,15 @@ http://localhost/api/v1/newslist/?search=o<br>
 
 <em>Как развернуть приложение локально:</em>
 
-1. Создайте виртуальное окружение в папке, куда планируете скачать проект: <em>python -m venv</em>
+1. Создайте виртуальное окружение в папке, куда планируете скачать проект:<br>
+<em>python -m venv</em><br>
 (например, python -m venv C:\User\project)
 
-2. Активируйте виртуальное окружение командой <em>cd C:\Users\project\Scripts\activate.bat</em>
+2. Активируйте виртуальное окружение командой<br> <em>cd C:\Users\project\Scripts\activate.bat</em>
 
-3. Скачайте проект по ссылке <strong>https://github.com/iren-coder/Yandex_and_Ozon_news_parsing_Test_case</strong> либо склонируйте репозиторий <strong>git@github.com:iren-coder/Yandex_and_Ozon_news_parsing_Test_case</strong>.
+3. Скачайте проект по ссылке <br><strong>https://github.com/iren-coder/Yandex_and_Ozon_news_parsing_Test_case</strong> <br>либо склонируйте репозиторий <br><strong>git@github.com:iren-coder/Yandex_and_Ozon_news_parsing_Test_case</strong>.
 
-4. Установите Postgres и создайте базу данных Postgres, создайте юзера с именем и паролем и дайте ему все привилегии над базой. Затем впишите свои название БД, имя юзера и пароль в раздел DATABASES в файле my_project/settings.py
+4. Установите Postgres и создайте базу данных Postgres, создайте юзера с именем и паролем и дайте ему все привилегии над базой. Затем впишите свои название БД, имя юзера и пароль в раздел DATABASES в файле my_project/settings.py<br>
 - установка PostgreSQL: <em>sudo apt install postgresql postgresql-contrib</em>
 - войти в консоль postgres: <em>sudo -u postgres psql</em>
 - создать базу данных и пользователя:
